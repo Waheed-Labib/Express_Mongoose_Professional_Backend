@@ -1,0 +1,15 @@
+{
+  "name": "chai_backend",
+  "version": "1.0.0",
+  "description": "Learning Backend with Chai_aur_Code YT channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Waheed Labib",
+  "license": "ISC"
+}
