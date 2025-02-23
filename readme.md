@@ -8,5 +8,6 @@
 => data models, mongoose middlewares, mongoose methods
 => Packages: bcrypt, JWT, mongoose-aggregate-paginate-v2 
 => Controllers & Routes. Middleware in app.js for creating api with using Controllers and Routes.
+=> User Registration Controller with all the steps.
 
 [Model Link](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
