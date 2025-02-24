@@ -7,7 +7,8 @@
 => utils - asyncHandler, ApiError, ApiResponse, cloudinary
 => data models, mongoose middlewares, mongoose methods
 => Packages: bcrypt, JWT, mongoose-aggregate-paginate-v2 
-=> Controllers & Routes. Middleware in app.js for creating api with using Controllers and Routes.
-=> User Registration Controller with all the steps.
+=> Controllers, Routes and Middlewares.
+=> User Registration, Login, LogOut Controllers with all the steps.
+=> cookie-parser and verifyJWT middlewares.
 
 [Model Link](https://app.eraser.io/workspace/YtPqZ1VogxGy1jzIDkzj)
