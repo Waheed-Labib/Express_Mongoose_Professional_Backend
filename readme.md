@@ -7,7 +7,7 @@
 => utils - asyncHandler, ApiError, ApiResponse, cloudinary
 => data models, mongoose middlewares, mongoose methods
 => Packages: bcrypt, JWT, mongoose-aggregate-paginate-v2 
-=> Controllers, Routes and Middlewares.
+=> Various Controllers, Routes and Middlewares.
 => User Registration, Login, LogOut Controllers with all the steps.
 => cookie-parser and verifyJWT middlewares.
 
