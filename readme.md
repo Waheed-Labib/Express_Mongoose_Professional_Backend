@@ -6,6 +6,7 @@
 => Express Setup
 => utils - asyncHandler, ApiError, ApiResponse, cloudinary
 => data models, mongoose middlewares, mongoose methods
+=> user, video, subscription models
 => Packages: bcrypt, JWT, mongoose-aggregate-paginate-v2 
 => Various Controllers, Routes and Middlewares.
 => User Registration, Login, LogOut Controllers with all the steps.
