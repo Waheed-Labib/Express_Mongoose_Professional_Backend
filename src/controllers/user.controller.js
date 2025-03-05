@@ -4,6 +4,7 @@ import { User } from "../models/user.models.js";
 import { uploadOnCloudinary } from "../utils/cloudinary.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import jwt from "jsonwebtoken";
+import { emailPattern, passwordPattern } from "../constants.js";
 
 const generateAccessAndRefreshToken = async (userId) => {
     try {
@@ -35,11 +36,21 @@ const registerUser = asyncHandler(async (req, res) => {
     const { username, fullName, email, password } = req.body;
     // console.log("email:", email);
 
-    // step 2: validation - not empty
+    // step 2: validation 
     if (
         [fullName, username, email, password].some(field => field?.trim() === "")
     ) {
         throw new ApiError(400, "All fields are required")
+    }
+
+    // email address validation
+    if (!emailPattern.test(email)) {
+        throw new ApiError(400, 'Email address not valid')
+    }
+
+    // password validation
+    if (!passwordPattern.test(password)) {
+        throw new ApiError(400, 'Password must be 8 characters long')
     }
 
     // step 3: check if user already exists: username, email
